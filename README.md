@@ -1,77 +1,37 @@
-# 👋 Hi, I'm Israr
+# Hi, I'm Israr 👋
 
-I'm a mobile-first **Fullstack Developer** with over 5 years of experience, specializing in building high-performance mobile apps using **React Native**, along with scalable web apps using **ReactJS**, **TypeScript**, and **Node.js**. I’ve contributed to production-grade applications used by millions across India and collaborated remotely with global teams in Europe and the Middle East.
+**Senior full-stack mobile engineer.** For 7 years I've shipped production apps in fintech, enterprise, media and AI, including Flipkart's UPI payments (**10M+ users**), HDFC PayZapp and STC Play (**1M MAU**).
 
----
+I build the whole product: the React Native app, the Node.js API and database, and the AWS infrastructure behind it.
 
-## 📱 Mobile-Heavy Tech Focus
-
-- **Mobile Development**: React Native (Expo & CLI), TypeScript, Native Modules, OTA updates  
-- **Streaming & Media**: QuickPlay SDK, HLS (M3U8), AWS CloudFront  
-- **Push & Deep Linking**: Braze, Adjust, Firebase, OneSignal  
-- **State Management & Data Fetching**: Redux Toolkit, React Query, Zustand  
-- **Real-time & Offline**: Firebase, SQLite, MMKV, AsyncStorage, Flipper  
-- **Navigation & UI**: React Navigation, Gesture Handler, Lottie, Reanimated  
-- **Performance**: Lazy loading, batching, memoization, MMKV optimization, Flipper debugging
+🌐 **Portfolio:** [israrkhan.vercel.app](https://israrkhan.vercel.app/) · 💼 [LinkedIn](https://www.linkedin.com/in/israr-khan-bb1b3217b/) · ✍️ [Medium](https://medium.com/@israr002khan) · 📧 israr002khan@gmail.com
 
 ---
 
-## 🧠 Recent Highlights
+## What I've shipped
 
-- ✅ Built a custom dashboard for **NEOM** using ReactJS & Redux Toolkit to manage users and apps  
-- 📲 Developed a real-time airport tracking app for NEOM using **AirLabs API**  
-- 💳 Integrated UPI payments using **Juspay** and **NPCI SDK** for **Flipkart** 
-- 📺 Developed and enhanced Gaming platform **STC Play**:
-  - Integrated **QuickPlay SDK** for adaptive video streaming  
-  - Managed **Braze push notifications** with deep user targeting  
-  - Handled **Adjust deep linking** to seamlessly route users to in-app destinations
+- **Wadhwani AI**: leading the WebView-to-native React Native rebuild of *Wadhwani Skills* (200K MAU). Screens load **4.5x faster** (5.5s → 1.2s) and use **600x less data** per load. Also built the AI Pitch Trainer and Interview Coach on Azure Speech.
+- **Relyve**: a voice companion for early memory loss that I built solo. React Native (New Architecture), Node/Express and MySQL, with Gemini Live over WebSockets, hosted on AWS. [Live on Play Store](https://play.google.com/store/apps/details?id=com.relyve.ai)
+- **Fodxpert**: digital signage on 500+ restaurant screens across India. I built the Android TV and Raspberry Pi players, the mobile CMS, the web dashboard, and the Node backend on AWS (EC2, RDS PostgreSQL, MQTT, CloudWatch).
+- **Flipkart**: UPI payments using the Juspay and NPCI SDKs, used by 10M+ people.
+- **HDFC PayZapp**: built onboarding, QR and deep-link referrals, and the profile section.
+- **STC Play**: stabilised a 1M MAU app (crash triage, QuickPlay SDK streaming, Braze push, Adjust deep links).
 
----
+## Stack
 
-## 🚀 Notable Projects
+- **Mobile:** React Native (CLI & Expo, New Architecture), TypeScript, native modules (Kotlin/Swift), Reanimated, Skia, MMKV, SQLite
+- **Backend & cloud:** Node.js, Express, MySQL, PostgreSQL, WebSockets, MQTT, AWS (EC2, RDS, Secrets Manager, CloudWatch)
+- **AI & voice:** Gemini Live, Azure Speech, on-device Whisper (TFLite), wake word detection
+- **Growth & payments:** Firebase, Braze, Adjust, CleverTap, Stripe, RevenueCat, UPI
+- **Shipping:** GitHub Actions, Fastlane, EAS, Sentry, Crashlytics, Jest, Detox, Maestro
 
-Here are a few selected public repositories:
+## Open source
 
-- [**pokefolio-rn**](https://github.com/israr002/pokefolio-rn) – Pokémon portfolio app built with React Native + TS  
-- [**eventzmania-rn**](https://github.com/israr002/eventzmania-rn) – Event management app in React Native  
-- [**stripe-subscription-rn**](https://github.com/israr002/stripe-subscription-rn) – Stripe-powered subscription demo  
-- [**iNaturalistReactNative**](https://github.com/israr002/iNaturalistReactNative) – Cross-platform nature exploration app empowering scientists and nature enthusiasts to document and 
-  study biodiversity worldwide  (Open source)  
-- [**rn-whisper-stt**](https://github.com/israr002/rn-whisper-stt) – Whisper-powered speech-to-text demo  
-
-
----
-
-## 🌟 Fun Facts
-
-- 🧩 I love reverse engineering apps just to see **how things work under the hood**  
-- 🔌 Obsessed with optimizing performance — even in side projects no one sees!  
-- 🎯 I sometimes overthink problems... then solve them in a single brilliant line of code  
-- 💬 Flipper is my guilty pleasure — I use it not just for debugging, but to **admire clean SQLite data**  
+- [**rn-whisper-stt**](https://github.com/israr002/rn-whisper-stt): offline, on-device speech-to-text in React Native using Whisper TFLite
+- [**iNaturalist**](https://github.com/inaturalist/iNaturalistReactNative/pulls?q=is%3Apr+is%3Aclosed+author%3Aisrar002): I contribute to the React Native app of this global biodiversity platform
+- [**stripe-subscription-rn**](https://github.com/israr002/stripe-subscription-rn): Stripe subscriptions in React Native ([write-up](https://medium.com/@israr002khan/stripe-subscription-in-react-native-785e59e4ac90))
+- [**pokefolio-rn**](https://github.com/israr002/pokefolio-rn): a React Native + TypeScript app with push notifications and Google Sign-In
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=israr002&show_icons=true&theme=tokyonight" alt="Israr's GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=israr002&theme=tokyonight&hide_border=false" alt="GitHub Streak" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=israr002&layout=compact&theme=tokyonight" alt="Top Languages" />
-</p>
-
----
-
-## 🔗 Let's Connect
-
-- 🌐 [LinkedIn](https://www.linkedin.com/in/israr-khan-bb1b3217b/)  
-- 📧 Email: israr002khan@gmail.com  
-
-
-
-
+💬 Open to senior mobile and full-stack roles and freelance work. Email is the fastest way to reach me.
